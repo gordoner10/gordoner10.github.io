@@ -1,0 +1,26 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-areas:"area3 area4 area5";
+}
+ #imglibro #dos{
+    grid-area: area3;
+    align-items: center;
+  }
+  body #tres{
+    grid-area: area4;
+  }
+  body #cuatro{
+    grid-area: area5;
+  }

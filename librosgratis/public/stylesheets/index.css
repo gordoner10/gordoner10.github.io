@@ -1,0 +1,50 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* El elemento header tendrá una imagen de fondo */
+
+header {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+header{
+    display: grid;
+    grid-template-areas:"area1 area1"
+                        "area2 area3";
+  }
+
+ header #cero{
+    grid-area: area1; 
+ }
+  header #uno{
+    grid-area: area2;
+  }
+
+ header aside{
+    grid-area: area3;
+    display: flex;
+    justify-content: space-around;
+  }
+nav ul{
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-around;
+}
+#WebDevelopment main{
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-around;
+}
