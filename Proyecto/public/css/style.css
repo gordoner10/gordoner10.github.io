@@ -538,9 +538,9 @@ div#preloader {
 }
 
 /*--------------------------------------------------------------
-# seccioninicio Section
+# hero Section
 --------------------------------------------------------------*/
-#seccioninicio {
+#hero {
   width: 100%;
   height: 100vh;
   background: #000;
@@ -549,15 +549,15 @@ div#preloader {
 }
 
 @media (max-height: 500px) {
-  #seccioninicio {
+  #hero {
     height: 150vh;
   }
 }
 
-#seccioninicio .carousel,
-#seccioninicio .carousel-inner,
-#seccioninicio .carousel-item,
-#seccioninicio .carousel-item::before {
+#hero .carousel,
+#hero .carousel-inner,
+#hero .carousel-item,
+#hero .carousel-item::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -565,18 +565,18 @@ div#preloader {
   bottom: 0;
 }
 
-#seccioninicio .carousel-item {
+#hero .carousel-item {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-#seccioninicio .carousel-item::before {
+#hero .carousel-item::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-#seccioninicio .carousel-container {
+#hero .carousel-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -587,11 +587,11 @@ div#preloader {
   right: 50px;
 }
 
-#seccioninicio .container {
+#hero .container {
   text-align: center;
 }
 
-#seccioninicio h2 {
+#hero h2 {
   color: #fff;
   margin-bottom: 20px;
   font-size: 24px;
@@ -599,13 +599,13 @@ div#preloader {
 }
 
 @media (max-width: 768px) {
-  #seccioninicio h2 {
+  #hero h2 {
     font-size: 20px;
     line-height: 1.2;
   }
 }
 
-#seccioninicio p {
+#hero p {
   width: 80%;
   font-size: 38px;
   line-height: 1.2;
@@ -614,72 +614,72 @@ div#preloader {
 }
 
 @media (min-width: 1024px) {
-  #seccioninicio p {
+  #hero p {
     width: 60%;
   }
 }
 
 @media (max-width: 768px) {
-  #seccioninicio p {
+  #hero p {
     font-size: 28px;
     line-height: 1.2;
   }
 }
 
-#seccioninicio .carousel-fade {
+#hero .carousel-fade {
   overflow: hidden;
 }
 
-#seccioninicio .carousel-fade .carousel-inner .carousel-item {
+#hero .carousel-fade .carousel-inner .carousel-item {
   transition-property: opacity;
 }
 
-#seccioninicio .carousel-fade .carousel-inner .carousel-item,
-#seccioninicio .carousel-fade .carousel-inner .active.carousel-item-start,
-#seccioninicio .carousel-fade .carousel-inner .active.carousel-item-end {
+#hero .carousel-fade .carousel-inner .carousel-item,
+#hero .carousel-fade .carousel-inner .active.carousel-item-start,
+#hero .carousel-fade .carousel-inner .active.carousel-item-end {
   opacity: 0;
 }
 
-#seccioninicio .carousel-fade .carousel-inner .active,
-#seccioninicio .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,
-#seccioninicio .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {
+#hero .carousel-fade .carousel-inner .active,
+#hero .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,
+#hero .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {
   opacity: 1;
   transition: 0.5s;
 }
 
-#seccioninicio .carousel-fade .carousel-inner .carousel-item-next,
-#seccioninicio .carousel-fade .carousel-inner .carousel-item-prev,
-#seccioninicio .carousel-fade .carousel-inner .active.carousel-item-start,
-#seccioninicio .carousel-fade .carousel-inner .active.carousel-item-end {
+#hero .carousel-fade .carousel-inner .carousel-item-next,
+#hero .carousel-fade .carousel-inner .carousel-item-prev,
+#hero .carousel-fade .carousel-inner .active.carousel-item-start,
+#hero .carousel-fade .carousel-inner .active.carousel-item-end {
   left: 0;
   transform: translate3d(0, 0, 0);
 }
 
-#seccioninicio .carousel-control-prev,
-#seccioninicio .carousel-control-next {
+#hero .carousel-control-prev,
+#hero .carousel-control-next {
   width: 10%;
 }
 
 @media (min-width: 1024px) {
 
-  #seccioninicio .carousel-control-prev,
-  #seccioninicio .carousel-control-next {
+  #hero .carousel-control-prev,
+  #hero .carousel-control-next {
     width: 5%;
   }
 }
 
-#seccioninicio .carousel-control-next-icon,
-#seccioninicio .carousel-control-prev-icon {
+#hero .carousel-control-next-icon,
+#hero .carousel-control-prev-icon {
   background: none;
   font-size: 32px;
   line-height: 1;
 }
 
-#seccioninicio .carousel-indicators li {
+#hero .carousel-indicators li {
   cursor: pointer;
 }
 
-#seccioninicio .btn-get-started {
+#hero .btn-get-started {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -692,7 +692,7 @@ div#preloader {
   background: #FFD500;
 }
 
-#seccioninicio .btn-get-started:hover {
+#hero .btn-get-started:hover {
   background: #fff;
   color: #FFD500;
 }
